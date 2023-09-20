@@ -12,13 +12,20 @@ void setup() {
   appWidth = width;
   appHeight = height;
   //
-  //Population ( DIVs or rect() )
+  // Population ( DIVs or rect() )
   //
-  //Text Setup
+  // Text Setup
+  // Fonts from OS
+  // tittleFont = ;
+  // footerFont = ;
   //
 } //End setup
+//
 void draw() {
   //Text is same size or relative to rect()
+  //
+  //Drawing Font Code
+  //
   rect(xTitle, yTitle, widthTitle, heightTitle); //Title: WAHOO!!
   //rect(xFooter, yFooter, widthFooter, heightFooter); //Footer: drip
 } //End draw
