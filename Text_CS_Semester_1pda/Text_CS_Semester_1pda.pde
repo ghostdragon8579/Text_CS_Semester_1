@@ -1,7 +1,11 @@
 //Global Variables
+int appWidth, appHeight;
 //
-void setup() {} //End setup
-//
+void setup() {
+  //fullscreen(); //displayWidth & displayHeight
+  appWidth = width;
+  appHeight = height;
+} //End setup
 void draw() {} //End draw
 //
 void keyPressed() {} //End keyPressed
