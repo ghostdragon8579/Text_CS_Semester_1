@@ -8,7 +8,6 @@ int sizeFont;
 //
 void setup() {
   //fullscreen(); //displayWidth & displayHeight
-  size(600, 800);
   appWidth = width;
   appHeight = height;
   //
@@ -16,7 +15,10 @@ void setup() {
   //
   // Text Setup
   // Fonts from OS
-  // tittleFont = ;
+  String[] fontlist = PFont.list(); //Lists all fonts available on OS
+  printArray(fontlist);
+  titleFont = creatfont("ArialMT-48", 55);
+  footerFont = creatfont("Wingdings-Regular-48", 55);
   // footerFont = ;
   //
 } //End setup
